@@ -65,11 +65,18 @@ blockquote {
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    text-align: center;
+    font-family: "Open Sans Condensed", sans-serif;
+    padding: 20px;
 }
 
 footer {
     background-color: #000;
     color: #F2FFFC;
+}
+
+aside li {
+    display: inline-block;
 }
 
 nav a {
@@ -78,9 +85,4 @@ nav a {
 
 main a {
     color: #851944;
-}
-
-aside a {
-    color: inherit;
-    font-family: "Open Sans Condensed", sans-serif;
 }
