@@ -7,10 +7,17 @@ body {
 
 main {
     line-height: 1.5 border-bottom 10px solid black;
+    float: left;
+    width: 85%;
 }
 
 main div {
     padding: 30px 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
 }
 
 strong {
@@ -28,6 +35,7 @@ h2 {
 
 h2 {
     font-size: 30px;
+    clear: both;
 }
 
 main h1 {
@@ -63,17 +71,28 @@ blockquote {
     border-right-color: #FFF;
 }
 
+.fiat {
+    float: right;
+}
+
+.petrobras {
+    float: left;
+}
+
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
     text-align: center;
     font-family: "Open Sans Condensed", sans-serif;
     padding: 20px;
+    float: right;
+    width: 15%;
 }
 
 footer {
     background-color: #000;
     color: #F2FFFC;
+    clear: both;
 }
 
 .icones-sociais li {
@@ -105,4 +124,15 @@ nav a {
 
 main a {
     color: #851944;
+}
+
+aside,
+img {
+    float: right;
+    width: 15%;
+}
+
+aside {
+    clear: right;
+    box-sizing: border-box;
 }
